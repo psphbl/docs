@@ -9,79 +9,158 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
+        "language": "ja",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "入門",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "ja/start/what-is-aeo",
+              "ja/start/happiness-strategy",
+              "ja/start/safety"
             ]
           },
           {
-            "group": "Customization",
+            "group": "基礎理論",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "ja/foundations/four-stages",
+              "ja/foundations/tantra-mapping",
+              "ja/foundations/glossary"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "身体・神経",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "ja/neuro/oculopalatal",
+              "ja/neuro/frisson",
+              "ja/neuro/neurochemistry-performance"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "実践テクニック",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "ja/techniques/shambhavi-basics",
+              "ja/techniques/nauli-abswave",
+              "ja/techniques/instant-boost"
+            ]
+          },
+          {
+            "group": "進め方",
+            "pages": [
+              "ja/roadmaps/stages",
+              "ja/roadmaps/principles"
+            ]
+          },
+          {
+            "group": "応用と効用",
+            "pages": [
+              "ja/applications/psychotherapy",
+              "ja/applications/performance"
+            ]
+          },
+          {
+            "group": "トラブルシューティング",
+            "pages": [
+              "ja/troubleshooting/pin-focus",
+              "ja/troubleshooting/overdrive",
+              "ja/troubleshooting/plateau",
+              "ja/troubleshooting/faq"
+            ]
+          },
+          {
+            "group": "リファレンス",
+            "pages": [
+              "ja/reference/pyramid",
+              "ja/reference/neuro-map"
+            ]
+          },
+          {
+            "group": "編集ガイド",
+            "pages": [
+              "ja/contribute/writing-style",
+              "ja/contribute/templates",
+              "ja/contribute/terminology"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "language": "en",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Start",
             "pages": [
-              "api-reference/introduction"
+              "en/start/what-is-aeo",
+              "en/start/happiness-strategy",
+              "en/start/safety"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Foundations",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "en/foundations/four-stages",
+              "en/foundations/tantra-mapping",
+              "en/foundations/glossary"
+            ]
+          },
+          {
+            "group": "Neuro & Body",
+            "pages": [
+              "en/neuro/oculopalatal",
+              "en/neuro/frisson",
+              "en/neuro/neurochemistry-performance"
+            ]
+          },
+          {
+            "group": "Techniques",
+            "pages": [
+              "en/techniques/shambhavi-basics",
+              "en/techniques/nauli-abswave",
+              "en/techniques/instant-boost"
+            ]
+          },
+          {
+            "group": "Roadmaps",
+            "pages": [
+              "en/roadmaps/stages",
+              "en/roadmaps/principles"
+            ]
+          },
+          {
+            "group": "Applications",
+            "pages": [
+              "en/applications/psychotherapy",
+              "en/applications/performance"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "en/troubleshooting/pin-focus",
+              "en/troubleshooting/overdrive",
+              "en/troubleshooting/plateau",
+              "en/troubleshooting/faq"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "en/reference/pyramid",
+              "en/reference/neuro-map"
+            ]
+          },
+          {
+            "group": "Contribute",
+            "pages": [
+              "en/contribute/writing-style",
+              "en/contribute/templates",
+              "en/contribute/terminology"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
