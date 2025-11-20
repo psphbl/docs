@@ -72,7 +72,8 @@
             "group": "リファレンス",
             "pages": [
               "ja/reference/pyramid",
-              "ja/reference/neuro-map"
+              "ja/reference/neuro-map",
+              "ja/reference/bibliography"
             ]
           },
           {
@@ -147,7 +148,8 @@
             "group": "Reference",
             "pages": [
               "en/reference/pyramid",
-              "en/reference/neuro-map"
+              "en/reference/neuro-map",
+              "en/reference/bibliography"
             ]
           },
           {
@@ -185,13 +187,7 @@
   "contextual": {
     "options": [
      "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
+     "view"
    ]
   },
   "footer": {
